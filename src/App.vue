@@ -54,8 +54,8 @@
   #nav a.router-link-exact-active {
     color: #42b983;
   }
+
   .footer {
-    position: absolute;
     bottom: 0;
     left: 0;
     border: solid;
@@ -65,5 +65,7 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     text-align: center;
+    position: fixed;
+
   }
 </style>

@@ -70,5 +70,6 @@
   }
   .wrapper {
     text-align: -moz-center;
+    text-align: -webkit-center;
   }
 </style>

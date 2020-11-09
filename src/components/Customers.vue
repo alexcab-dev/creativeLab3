@@ -42,24 +42,38 @@
     height: 270px;
     border-radius: 30px;
   }
+
   .wrapperHie {
     text-align: -moz-center;
+    text-align: -webkit-center;
   }
+
+  .info {}
+
   .container {
     overflow: hidden;
     margin: 100px;
     background-color: #2a304f !important;
-    border-radius:25px
+    border-radius: 25px
   }
+
   .container p {
     font-size: 25px;
     font-weight: 900;
     letter-spacing: 1.01px;
+    text-align: center !important;
   }
-    .col-lg-6 .section {
+
+  .col-lg-6 .section {
     border-radius: 30px;
     margin: 10px;
     padding: 30px;
     background-color: #000000 !important;
+  }
+
+  .col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
   }
 </style>
